@@ -22,7 +22,7 @@ main {
   border: 2px solid #000000;
   width: 90%;
   max-width: 300px;
-  height: 420px;
+  min-height: 420px;
   border-radius: 20px;
   padding: 20px;
   animation: mymove 5s infinite;
@@ -64,6 +64,7 @@ main {
 h1 {
   font-size: 20px;
   font-weight: bold;
+  line-height: 1;
   margin-bottom: 10px;
   font-family: "Figtree", sans-serif;
 }
